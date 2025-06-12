@@ -1,0 +1,87 @@
+/* Font and base settings */
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(135deg, #000428, #004e92);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 40px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #00ffd5;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.input-group input::placeholder {
+  color: #aaa;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #00ffd5;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #00c8aa;
+}
+
+#result {
+  margin-top: 25px;
+  font-size: 20px;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
